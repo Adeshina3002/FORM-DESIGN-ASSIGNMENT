@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+    width: 30%;
+    margin: auto;
+}
+
+#hero-image {
+    background-image: url("/IMG/rsz_11svitlana-ao3ydnpvdw4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 96%;
+    padding: 4rem 0;
+    margin-top: 1rem;
+    border-radius: 10px;
+    
+}
+
+.hero-text {
+    color: #fff;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: -1.6rem;
+    width: 90%;
+}
+
+form {
+    font-size: 1rem;
+    display: block;
+    width: 90%;
+    margin: 1rem 0rem;
+}
+
+form label {
+    font-size: .8rem;
+    opacity: .5;
+    margin-left: .8rem;
+}
+
+form input {
+    display: block;
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 93%;
+    padding: .1rem;
+    margin-left: .8rem;
+    margin-bottom: .4rem;
+    outline: none;
+}
+
+button {
+    color: #fff;
+    background-color: rebeccapurple;
+    padding: .3rem 4.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-left: .8rem;
+    width: 96%;
+}
+
+.foot-note {
+    /* margin-left: -3rem; */
+    font-size: .6rem;
+    text-align: center;
+}
+
+.foot-note a {
+    text-decoration: none;
+}
